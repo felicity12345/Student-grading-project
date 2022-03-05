@@ -40,7 +40,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </nav>
 
     <h1 class="my-5">Hi, <b>
-        <?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to Apearl gradding App.</h1>
+        <?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to RGU.</h1>
     
 </body>
 </html>
