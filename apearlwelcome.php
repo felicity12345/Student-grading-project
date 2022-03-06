@@ -32,24 +32,22 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About Us</a></li>
-              <li><a href="Studentprofile.php">Student Profile</a></li>
+              <li><a href="studentprofile.php">Students Profile</a></li>
               <li><a href="apearllogout.php">Logout</a></li>
 
           </ul>
 
   </nav>
 
-    <h1> Welcome Apearl Student.</h1>
-   <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem aperiam nostrum dignissimos ad porro temporibus illo doloribus aliquid, eius nisi veniam debitis facere est sapiente laudantium quas nam? Pariatur quidem rerum aliquam dolores amet ex porro culpa veniam eius, libero officia doloribus praesentium incidunt dolore quibusdam cumque tempora adipisci nobis, quae accusantium reiciendis molestias voluptate qui voluptatum? Repudiandae ea atque id ex nisi optio molestiae, suscipit placeat possimus autem, esse accusamus aperiam debitis laborum dolor a voluptatum? Quis aspernatur sint in dolor. Corporis deleniti ipsa impedit ut architecto fuga earum officiis nostrum sequi, ipsum quo dolorum at repellendus esse., dolor sit amet consectetur adipisicing elit. Ducimus ad laboriosam et cupiditate veritatis.</P>
-   
-   <a href="Studentprofile.php" class="Button">View profile</a>
-
+    <h1 class="my-5">Hi, <b>
+        <?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to RGU.</h1>
+    
 </body>
 </html>
 
 
 
         
- <?php
+    <?php
   include_once 'footer.php';
   ?>
