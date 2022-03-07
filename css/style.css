@@ -11,7 +11,13 @@ body{
 }
 #showcase{
   background-image:url('../image/aberdeen1.jpg');
-  height: 50vh;
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
