@@ -14,13 +14,13 @@
                 <h3>Games</h3>
             </div>
             <div>
-                <h3>school</h3>
+                <h3>Competiton</h3>
             </div>
             <div>
                 <h3>Sport</h3>
             </div>
             <div>
-                <h3>Breaking</h3>
+                <h3>Break</h3>
             </div>
         </div>
     </section>
