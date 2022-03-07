@@ -22,6 +22,18 @@ li a:hover {
   color:#000000
 }
 
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #a9a9a9;
+  line-height: 1.6;
+  
+}
+#showcase{
+  background-image:url('./img/aberdeen.jpg');
+}
   
 
 
