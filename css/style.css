@@ -1,3 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #926239;
+  line-height: 1.6;
+}
+#showcase{
+  background-image:url('../image/aberdeen1.jpg');
+  height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Set a style navigation */
 nav>ul {
@@ -23,17 +48,6 @@ li a:hover {
 }
 
 
-body{
-  margin:0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  color: #a9a9a9;
-  line-height: 1.6;
-  
-}
-#showcase{
-  background-image:url('./img/aberdeen.jpg');
-}
   
 
 
