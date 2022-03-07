@@ -30,8 +30,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About Us</a></li>
-              li><a href="apearlpassreset.php">passreset</a></li>
-              li><a href="apearllogout.php">Logout</a></li><
+              li><a href="apearlpassreset.php">Pwdrest</a></li>
+              li><a href="apearllogout.php">Logout</a></li>
           </ul>
       </nav>
       
