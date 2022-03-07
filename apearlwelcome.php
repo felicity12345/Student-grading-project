@@ -30,7 +30,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About Us</a></li>
-              <li><a href="apearlpassreset.php">Pwdrest</a></li>
+              <li><a href="apearlpassreset.php">PasswordReset</a></li>
               <li><a href="apearllogout.php">Logout</a></li>
           </ul>
       </nav>
@@ -40,9 +40,12 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <body>
     
     <header id="showcase">
-        <h2>Welcome to Apearl Gradding System</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolore provident assumenda itaque consequatur eos?</p>
-        <a href="Studentprofile.php" class="botton">View Student profile</a>
+        <h2>Welcome to Aberdeen City</h2>
+        <p>ABERDEEN A PLACE TO VISIT<br>FOR YOUR NEXT TRIP</p>
+        <p>The city is historically know for is strong<br>
+                        ties with the nortth sea it is the oil<br>
+                        hub for europe. <br></p>
+        <a href="Thingstodo.php" class="botton">View beautiful places</a>
     </header>
         
 </body>
