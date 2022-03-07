@@ -14,11 +14,8 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li><a href="placetovisit.php">place to visit</a></li>
-                <li><a href="Thingstodo.php">Things to do</a></li>
-                <li><a href="Yourstory.php">Your story</a></li>
-                <li><a href="signup.php">sign up</a></li>
-                <li><a href="login.php">Log in</a></li>
+                <li><a href="apearllogin.php">Log in</a></li>
+               
 
             </ul>
 
