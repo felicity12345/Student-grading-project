@@ -14,8 +14,8 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
+                <li><a href="apearlregister.php">Sign up</a></li>
                 <li><a href="apearllogin.php">Log in</a></li>
-               
 
             </ul>
 
