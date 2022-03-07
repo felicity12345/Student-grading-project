@@ -25,51 +25,32 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         body{ font: 14px sans-serif; text-align: center; }
     </style>
 </head>
-<body>
 
-
-  <nav>
+      <nav>
           <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About Us</a></li>
+              
               <li><a href="apearllogout.php">Logout</a></li>
-
           </ul>
-
-  </nav>
-
-    <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
-    <p>
-        <a href="apearlpassreset.php" class="btn btn-warning">Reset Your Password</a>
-        <a href="apearllogout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
-    </p>
+      </nav>
+      
+    
+      </head>
+      <body>
+    
+    <header id="showcase">
+        <h2>Welcome to Apearl Gradding System</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolore provident assumenda itaque consequatur eos?</p>
+        <a href="Studentprofile.php" class="botton">View Student profile</a>
+    </header>
+        
 </body>
 </html>
 
 
 
-         <section class="index-intro">
-          <h1>School Gradding App Introduction</h1>
-          <p> purpose of the Gradding Application</p>
-        </section>
-
-        <section class="index-about">
-            <h2>some basic categories</h2>
-            <div class="index-about-list">
-            <div>
-                <h3>Games</h3>
-            </div>
-            <div>
-                <h3>Competiton</h3>
-            </div>
-            <div>
-                <h3>Sport</h3>
-            </div>
-            <div>
-                <h3>Break</h3>
-            </div>
-        </div>
-    </section>
+        
     <?php
   include_once 'footer.php';
   ?>
